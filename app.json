@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/people/people",
+    "pages/address/address",
+    "pages/vip/vip",
+    "pages/picture/picture",
+    "pages/notification/notification"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "black",
+    "selectedColor": "#83A3B4",
+    "color": "#888888",
+    "list": [
+      {
+        "pagePath": "pages/people/people",
+        "text": "People",
+        "iconPath": "/assets/people.png",
+        "selectedIconPath": "/assets/people-active.png"
+      },{
+        "pagePath": "pages/address/address",
+        "text": "Address",
+        "iconPath": "/assets/address.png",
+        "selectedIconPath": "/assets/address-active.png"
+      },{
+        "pagePath": "pages/vip/vip",
+        "text": "VIP",
+        "iconPath": "/assets/vip.png",
+        "selectedIconPath": "/assets/vip-active.png"
+      },{
+        "pagePath": "pages/picture/picture",
+        "text": "PICTURE",
+        "iconPath": "/assets/picture.png",
+        "selectedIconPath": "/assets/picture-active.png"
+      },{
+        "pagePath": "pages/notification/notification",
+        "text": "NOTIFICATION",
+        "iconPath": "/assets/notification.png",
+        "selectedIconPath": "/assets/notification-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
